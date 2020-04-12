@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact us</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+
+		}
+		body{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(train.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+		nav{
+		width: 100%;
+	height: 15vh;
+	background:rgba(0,0,0,0.6);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	.logo{
+	width: 25%;
+	text-align: center;
+}
+.menu{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+.menu a{
+	width: 25%;
+	text-decoration: none;
+	color: white;
+}
+#form{
+	padding: 30px;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	background:rgba(0,0,0,0.6);
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 25%;
+
+}
+input[type=text],select,textarea{
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	resize: vertical;
+	background:rgba(0,0,0,0.2);
+	color: white;
+
+
+}
+.grid-cont{
+	width:80%;
+	margin:50px auto;
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(offer.png);
+	
+	display: grid;
+	color: white;
+	grid-template-rows: 450px;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px;
+	 
+}
+.us1{
+background:rgba(0,0,0,0.6);
+grid-column: 1/2;
+border:1px solid white;
+text-align: center;
+
+
+}
+.us2{
+background:rgba(0,0,0,0.6);
+grid-column: 2/3;
+border:1px solid white;
+text-align: center;
+}
+.us3{
+background:rgba(0,0,0,0.6);
+grid-column: 3/4;
+border:1px solid white;
+text-align: center;
+}
+.img{
+	align-items: center;
+	text-align: center;
+	
+}
+#first:hover{
+	transform: scale(1.2,1.2);
+	transition-duration: .3s;
+}
+ a{
+	padding: 12px 30px;
+		border-radius: 3px;
+
+	text-decoration: none;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.but2{
+	background: #00b894;
+	color: white;
+}
+#us{
+	color: white;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+h2{
+	font-family: sans-serif;
+}
+
+
+	</style>
+
+</head>
+<body>
+	<nav>
+	<div class="logo" id="first"><h1>GO-RAIL</h1></div>
+	<div class="menu">
+		<a href="respos.html" id="first">HOME</a>
+		<a href="about.html" id="first">ABOUT</a>
+		<a href="offers.html" id="first">OFFERS</a>
+		<a href="meals.html" id="first">MEALS</a>
+		<a href="contact.html">CONTACT US</a>
+			<a href="timetable.html" id="first">TIMETABLE</a>
+	</div>
+</nav>
+<div id="form">
+			<form>
+
+				
+					<h2 align="center"  >CONTACT US</h2>
+				
+				<input type="text" name="email" placeholder="Your Email"></br>
+			</br>
+
+			
+				<input type="text"  placeholder="What's this about?">
+				<textarea name="subject" placeholder="message" style="height: 200px"></textarea>
+				<a href="#" class="but2" onclick="alert('Submitted successfully');">submit</a>
+			</form>
+			</div>
+			<hr>
+			<div id="us"><h2 align="center">OUR TEAM</h2></div>
+			<div class="grid-cont">
+
+			<div class="us1" id="first">
+				<div class="img"><img src="male.png" width="50%"  ><br><b>SIDDARTHA ROY</b></div>
+				Phone:9390071661<br>watsapp:8790875886
+						
+					
+			</div>
+				<div class="us2" id="first">
+					<div class="img"><img src="male.png" width="50%"  ><br><b>DINESH</b></div>
+	Phone:9182297341<br>watsapp:8790875886
+						
+						
+			</div>
+						<div class="us3" id="first">
+							<div class="img"><img src="male.png" width="50%"  ><br><b>DEVRAZ</b></div>
+				Phone:9347213816<br>watsapp:8790875886
+						
+					
+			</div>
+
+</body>
+</html>

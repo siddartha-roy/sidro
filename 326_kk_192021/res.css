@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.head{
+	width: 100%;
+	height: 100%;
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(train.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+nav{
+	width: 100%;
+	height: 15vh;
+	background:rgba(0,0,0,0.6);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+
+.logo{
+	width: 25%;
+	text-align: center;
+}
+.menu{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+.menu a{
+	width: 25%;
+	text-decoration: none;
+	color: white;
+}
+.main-cont{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+	input[type=text],select{
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	resize: vertical;
+	background:rgba(0,0,0,0.2);
+	color: white;
+}
+input[type=date],select{
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	resize: vertical;
+	background:rgba(0,0,0,0.2);
+	color: white;
+}
+section{
+	width: 70%;
+	font-family: monospace;
+
+}
+
+section h3{
+	font-size: 35px;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 5px white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+section a,#form a{
+	padding: 12px 30px;
+		border-radius: 3px;
+
+	text-decoration: none;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+#first:hover{
+	transform: scale(1.2,1.2);
+	transition-duration: .3s;
+}
+
+.but1{
+	background: white;
+	color: black;
+	
+	
+}
+.but2{
+	background: #00b894;
+	color: white;
+}
+#form{
+	width: 30%;
+    height: 50%;
+ 	background:rgba(0,0,0,0.6);
+	padding: 30px;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-left: 25%;
+	margin-right: 100px;
+
+}
+#form h2{
+
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 5px white;
+	font-family: monospace;
+}
+ 	
+

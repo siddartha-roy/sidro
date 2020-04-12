@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meals</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+	nav{
+		width: 100%;
+	height: 15vh;
+	background:rgba(0,0,0,0.6);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	.logo{
+	width: 25%;
+	text-align: center;
+}
+.menu{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+.menu a{
+	width: 25%;
+	text-decoration: none;
+	color: white;
+}
+#first:hover{
+	transform: scale(1.2,1.2);
+	transition-duration: .3s;
+}
+.main-cont{
+	width: 95%;
+	margin: 30px auto;
+	display: grid;
+	grid-template-rows: repeat(6,150px);
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 5px;
+	font-size: 30px;
+	
+}
+.item1{
+	border:3px solid black;
+	
+	border-radius: 10px;
+	grid-column: 1/2;
+	background:rgba(0,0,0,0);
+}
+.item2{
+	grid-column: 2/-1;
+	border:3px solid black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0.4);
+	text-align: center;
+
+}
+.start{
+	border:3px solid black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0);
+}
+
+.item4{
+	grid-row: 2/3;
+	grid-column: 2/-1;
+	border:3px solid black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0.4);
+	text-align: center;
+
+}
+
+.item6{
+    grid-row: 3/4;
+	grid-column: 2/-1;
+	border:3px solid black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0.4);
+	text-align: center;
+
+}
+.item8{
+    grid-row: 4/5;
+	grid-column: 2/-1;
+	border:3px solid black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0.4);
+	text-align: center;
+
+}
+.item10{
+    grid-row: 5/6;
+	grid-column: 2/-1;
+	border:3px solid black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0.4);
+	text-align: center;
+
+}
+.item12{
+    grid-row: 6/7;
+	grid-column: 2/-1;
+	border:3px solid black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0.4);
+	text-align: center;
+
+}
+.main-cont a{
+	border-radius: 3px;
+
+	text-decoration: none;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: black;
+}
+.but2{
+	background:rgba(0,0,0,0.2);
+	color: white;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    border:3px dashed black;
+
+}
+
+	</style>
+</head>
+<body>
+	<nav>
+	<div class="logo"><h1>GO-RAIL</h1></div>
+	<div class="menu">
+		<a href="respos.html" id="first">HOME</a>
+		<a href="about.html" id="first">ABOUT</a>
+		<a href="offers.html" id="first">OFFERS</a>
+		<a href="meals.html">MEALS</a>
+		<a href="contact.html" id="first">CONTACT US</a>
+			<a href="timetable.html" id="first">TIMETABLE</a>
+	</div>
+</nav>
+<div margin-top:10px;><img src="food.png" width="100%" height="400px"></div>
+<div class="main-cont">
+		<div class="item1"><img src="1.jpeg" width="50%" ><a href="#" class="but2" onclick="alert('Sorry, This is just a Static Webpage');">order</a></div>
+		<div class="item2"><b>Veg Deluxe Thali</b><br>
+			paneer veg, seasonal veg,<br>
+		dal, roti(3), jeera rice, salad </div>
+		<div class="start"><img src="2.jpeg" width="44%"><a href="#" class="but2" onclick="alert('Sorry, This is just a Static Webpage');">order</a></div>
+		<div class="item4">
+			<b>Mini Thali</b><br>Dal, fulka(2)<br>rice, pickle
+		</div>
+		<div class="start"><img src="3.jpeg" width="42%" ><a href="#" class="but2" onclick="alert('Sorry, This is just a Static Webpage');">order</a></div>
+		<div class="item6"><b>Non Veg Thali</b><br>Chicken curry, seasonal veg, dal<br>roti(3), salad, pickle</div>
+		<div class="start"><img src="4.jpeg" width="46%" border-radius="5px"><a href="#" class="but2" onclick="alert('Sorry, This is just a Static Webpage');">order</a></div>
+		<div class="item8"><b>Chicken Biriyani</b><br>served with raitha</div>
+		<div class="start"><img src="5.jpeg" width="46%" border-radius="5px"><a href="#" class="but2" onclick="alert('Sorry, This is just a Static Webpage');">order</a></div>
+		<div class="item10"><b>Egg Curry Meal Box</b><br>Egg curry with 3 roti</div>
+		<div class="start"><img src="6.jpeg" width="46%" ><a href="#" class="but2" onclick="alert('Sorry, This is just a Static Webpage');">order</a></div>
+		<div class="item12"><b>Veg Biriyani</b><br>served with raita, curry<br>a perfect balance of veggies</div>
+		
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>offers</title>
+
+<style>
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(train.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	background:rgba(0,0,0,0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+
+.logo{
+	width: 25%;
+	text-align: center;
+}
+.menu{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+.menu a{
+	width: 25%;
+	text-decoration: none;
+	color: white;
+}
+.main-cont{
+	width:95%;
+	font-size: 5px;
+	margin:50px auto;
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(offer.png);
+	
+	display: grid;
+	color: white;
+	grid-template-rows: 50px 200px 250px;
+	grid-template-columns:repeat(3,1fr) 200px;
+	grid-gap: 20px;
+	grid-auto-rows: 150px;
+		font-size: 30px;
+		font-family: monospace;
+
+
+}
+.main-cont a{
+	padding: 12px 30px;
+		border-radius: 3px;
+
+	text-decoration: none;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.but1{
+	background: white;
+	color: black;
+
+	
+	
+}
+.item1{ background:rgba(0,0,0,0.2);
+	grid-column:1/-1;
+	letter-spacing: 3px;
+	text-shadow: 10px 1px 20px black;
+	border:1px solid white;
+border-radius: 10px;
+	text-align: center;
+	font-family: fantasy;
+	
+ }
+.item2{ background:rgba(0,0,0,0.4);
+text-shadow: 1px 1px 5px black;
+font-size: 33px;
+border:2px solid white;
+border-radius: 10px;
+text-align: center;}
+.item3{background:rgba(0,0,0,0.4);
+grid-row: 3/4;
+grid-column: 2/3;
+font-size: 35px;
+border:2px solid white;
+border-radius: 10px;
+text-align: center;
+text-shadow: 1px 1px 5px black;}
+.item4{background:rgba(0,0,0,0.4);
+grid-column: 3/4;
+text-shadow: 1px 1px 5px black;
+border:2px solid white;
+border-radius: 10px;
+font-size: 35px;
+text-align: center;}
+.item5{background:rgba(0,0,0,0.4);
+	grid-row: 2/5;
+	grid-column: 4/5;
+	border:2px solid white;
+border-radius: 10px;
+	text-shadow: 1px 1px 5px black;
+	text-align: center;
+	padding-top:70%;
+	font-size: 40px;
+
+
+}
+.item6{background:rgba(0,0,0,0.4);
+grid-column: 1/2;
+grid-row: 4/5;
+border:2px solid white;
+border-radius: 10px;
+text-shadow: 1px 1px 5px black;
+font-size: 25px;
+text-align: center;}
+.item7{background:rgba(0,0,0,0.4);
+grid-column: 3/4;
+grid-row: 4/5;
+border:2px solid white;
+border-radius: 10px;
+text-shadow: 1px 1px 5px black;
+text-align: center;
+
+}
+#first:hover{
+	transform: scale(1.2,1.2);
+	transition-duration: .3s;
+}
+
+
+
+</style>
+<script type="text/javascript">
+
+</script>
+
+</head>
+<body>
+	<nav>
+	<div class="logo"><h1>GO-RAIL</h1></div>
+	<div class="menu">
+		<a href="respos.html" id="first">HOME</a>
+		<a href="about.html" id="first">ABOUT</a>
+		<a href="#">OFFERS</a>
+		<a href="meals.html" id="first">MEALS</a>
+		<a href="contact.html" id="first">CONTACT US</a>
+			<a href="timetable.html" id="first">TIMETABLE</a>
+	</div>
+</nav>
+	<div class="main-cont">
+		<div class="item1" >EXCLUSIVE OFFERS</div>
+		<div class="item2" id="first"  >UPI Offer on<br>Train Tickets<br><a href="timetable.html" class="but1" >BOOK NOW</a></div>
+		<div class="item3" id="first">Flat <b>15% Instant <br>Discount</b> on Train<br>Bookings<br>  <a href="timetable.html" class="but1">BOOK NOW</a></div>
+		<div class="item4" id="first">Train Cancellation<b> till<br>14th April</b><br><a href="timetable.html" class="but1">CANCEL NOW</a></div>
+		<div class="item5" id="first"><b>500 off</b> on first booking<br><a href="timetable.html" class="but1">BOOK NOW</a></div>
+		<div class="item6" id="first">Stays for <b>Heroes<br>and Sheroes</b><br><a href="timetable.html" class="but1">BOOK NOW</a></div>
+		<div class="item7" id="first">Enjoy Hassle <b>Free</b><br>cancellations<br><a href="timetable.html" class="but1">CANCEL NOW</a></div>
+		
+		
+		
+	</div>
+
+
+</body>
+</html>
